@@ -75,15 +75,7 @@ export const ChurchEvent: React.FC = () => {
                   </div>
                 </div>
 
-                <div className="relative group">
-                  <div className="absolute top-1/2 -translate-y-1/2 -left-[64px] sm:-left-[74px] w-12 h-12 bg-white rounded-full border border-church-primary/30 shadow-sm flex items-center justify-center group-hover:border-church-primary transition-all duration-500">
-                    <Clock className="w-5 h-5 text-church-light" />
-                  </div>
-                  <div>
-                    <h4 className="font-serif text-xl sm:text-2xl text-stone-800 mb-1 group-hover:text-church-primary transition-colors duration-500">04:30 PM</h4>
-                    <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Snack Time & Fellowship</p>
-                  </div>
-                </div>
+
 
               </div>
             </motion.div>
@@ -101,7 +93,7 @@ export const ChurchEvent: React.FC = () => {
               
               <div className="relative aspect-[3/4] sm:aspect-[4/5] rounded-t-full overflow-hidden border-[6px] sm:border-[8px] border-white shadow-xl bg-church-bg group flex items-center justify-center">
                 <img 
-                  src="/WhatsApp Image 2026-06-10 at 01.11.22.jpeg" 
+                  src="/navy blue.png" 
                   alt="Church Function" 
                   className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-105"
                 />

@@ -4,6 +4,14 @@ import { Sparkles, Heart } from 'lucide-react';
 import { CornerFlowers } from './CornerFlowers';
 
 export const HeroContent: React.FC = () => {
+  const searchParams = new URLSearchParams(window.location.search);
+  const prefix = searchParams.get('prefix');
+  const name = searchParams.get('name');
+  
+  const invitationText = (prefix && name)
+    ? `We cordially invite ${prefix} ${name}`
+    : `Together with our families, we joyfully invite you to join us`;
+
   return (
     <section className="relative min-h-screen py-24 sm:py-32 flex items-center justify-center overflow-hidden">
       <CornerFlowers position="all" opacity={0.8} scale={1.8} />
@@ -54,7 +62,7 @@ export const HeroContent: React.FC = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-16">
             <div className="hidden sm:block h-[1px] w-24 bg-gradient-to-r from-transparent to-brand-primary/40" />
             <p className="text-xl sm:text-3xl font-serif italic text-stone-700 tracking-wide px-4 text-center max-w-2xl leading-relaxed">
-              Together with our families, we joyfully invite you to join us
+              {invitationText}
             </p>
             <div className="hidden sm:block h-[1px] w-24 bg-gradient-to-l from-transparent to-brand-primary/40" />
           </div>

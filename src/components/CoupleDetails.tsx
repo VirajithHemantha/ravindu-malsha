@@ -24,8 +24,8 @@ export const CoupleDetails: React.FC = () => {
         >
           <div className="mb-4 flex flex-col items-center">
             <span className="text-brand-primary uppercase tracking-[0.4em] text-xs sm:text-sm font-bold mb-4 block">The Groom</span>
-            <p className="text-stone-500/90 font-serif italic text-lg sm:text-xl mb-3">Son of Mr. & Mrs. Thalpahewa Ranjith</p>
-            <h3 className="text-6xl sm:text-7xl lg:text-8xl font-display text-stone-800 drop-shadow-sm">Ravindu</h3>
+            <h3 className="text-6xl sm:text-7xl lg:text-8xl font-display text-stone-800 drop-shadow-sm mb-3">Ravindu</h3>
+            <p className="text-stone-500/90 font-serif italic text-lg sm:text-xl">Son of Mr. & Mrs. Thalpahewa Ranjith</p>
           </div>
         </motion.div>
 
@@ -39,8 +39,8 @@ export const CoupleDetails: React.FC = () => {
         >
           <div className="mb-4 flex flex-col items-center">
             <span className="text-brand-primary uppercase tracking-[0.4em] text-xs sm:text-sm font-bold mb-4 block">The Bride</span>
-            <p className="text-stone-500/90 font-serif italic text-lg sm:text-xl mb-3">Daughter of Mr. & Mrs. Anton Warnakulasooriya</p>
-            <h3 className="text-6xl sm:text-7xl lg:text-8xl font-display text-stone-800 drop-shadow-sm">Malsha</h3>
+            <h3 className="text-6xl sm:text-7xl lg:text-8xl font-display text-stone-800 drop-shadow-sm mb-3">Malsha</h3>
+            <p className="text-stone-500/90 font-serif italic text-lg sm:text-xl">Daughter of Mr. & Mrs. Anton Warnakulasooriya</p>
           </div>
         </motion.div>
 
